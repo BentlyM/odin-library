@@ -39,9 +39,6 @@ nav ul {
     gap: 45px;
     padding: var(--nav-padding);
     flex-wrap: wrap;
-    > :last-child {
-        border: 1px solid black;
-    }
 }
 
 #icon {

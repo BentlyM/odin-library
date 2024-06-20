@@ -108,4 +108,5 @@ function updateNumCards() {
         const numCard = cards[i].querySelector('.card-number');
         numCard.textContent = i + 1;
     }
+    count--;
 }
