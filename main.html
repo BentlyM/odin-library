@@ -20,7 +20,17 @@
         </div>
         <ul>
             <li><a href="#file">File Management</a></li>
-            <li><a href="#books">Add Books</a></li>
+            <li class="dropdown">
+                <a href="#books" onmousedown="viewDrop()">Add Books</a>
+                <div class="dropdown-content" action="#" method="GET">
+                    <form>
+                        <input type="text" id="book-name" placeholder="Book Name" minlength="3" required>
+                        <input type="text" id="author" placeholder="Author" minlength="3" required>
+                        <input type="number" id="pages" placeholder="Pages" required>
+                        <button id="add-book">Add Book</button>
+                    </form>
+                </div>
+            </li>
             <li><a href="#log">Log</a></li>
         </ul>
     </nav>
