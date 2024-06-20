@@ -1,2 +1,4 @@
 what would a engineer do?
-what would a computer?
+what would a computer scientist do?
+what are you trying to solve?
+create a new branch

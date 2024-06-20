@@ -32,5 +32,6 @@ createBook.addEventListener('click', ()=>{
 function renderCard(renderBook){
     const card = document.createElement('div');
     card.className = 'card';
+
     container.appendChild(card);
 }
