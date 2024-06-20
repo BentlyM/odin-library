@@ -22,11 +22,11 @@ createBook.addEventListener('click', ()=>{
     const title = document.getElementById('book-name').value;
     const author = document.getElementById('author').value;
     const pages = document.getElementById('pages').value;
-    if(title === '' || author === '' || pages === '') throw `error`;
+    if(title === '' || author === '' || pages === '') throw `the field is empty`;
     const newBook = new Book(title, author, pages);
     myLibrary.push(newBook);
     renderCard(newBook);
-    console.table(myLibrary);
+    viewDrop(); // toggles
 })
 
 function renderCard(renderBook){
