@@ -13,9 +13,6 @@ function Book(title , author, pages, read) {
     this.author = author;
     this.pages = pages;
     this.read = read;
-    this.info = () => {
-        return `${title} by ${author}, ${pages} pages, ${read ? 'read'  : 'not read yet'}`
-    }
 }
 
 createBook.addEventListener('click', (event)=>{
@@ -62,9 +59,9 @@ const displayContent = (title, author, pages, cardContent) => {
     const displayAuthor = document.createElement('span');
     const displayPages = document.createElement('span');
 
-    displayTitle.textContent = `Title: ${title}`;
-    displayAuthor.textContent = `Author: ${author}`;
-    displayPages.textContent = `Pages: ${pages}`;
+    displayTitle.textContent = `Title: - ${title}`;
+    displayAuthor.textContent = `Author: - ${author}`;
+    displayPages.textContent = `Pages: - ${pages}`;
 
     cardContent.appendChild(displayTitle);
     cardContent.appendChild(displayAuthor);
