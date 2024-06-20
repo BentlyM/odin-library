@@ -1,5 +1,6 @@
 const container = document.querySelector('.container');
-const myLibrary = ['<div></div>','<div></div>','<div></div>'];
+const myLibrary = [];
+let count = 1;
 
 function Book(title , author, pages, read) {
     this.title = title;
@@ -11,18 +12,8 @@ function Book(title , author, pages, read) {
     }
 }
 
-function addBookToLibrary(book) {
-    myLibrary.push(book);
+function addBookToLibrary() {
 }
 
-function scanLibrary(){
-    for(let items in myLibrary){
-        const card = document.createElement('div');
-        card.innerHTML = myLibrary[items];
-        card.className = 'card';
-        container.appendChild(card);
-        card.firstChild.innerHTML = +items + 1;
-    }
+function renderCard(){
 }
-
-scanLibrary();
