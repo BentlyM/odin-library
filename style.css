@@ -114,7 +114,7 @@ nav ul {
 
 .card {
     display: grid;
-    grid-template-columns: 1fr 5fr 5fr;
+    grid-template-columns: 1fr 5fr 3fr;
     align-items: center;
     background-color: #fff;
     border: 1px solid #ddd;
@@ -125,4 +125,10 @@ nav ul {
 
 .card *:nth-child(1) {
     text-align: center;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

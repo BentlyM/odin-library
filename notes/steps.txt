@@ -1,4 +1,22 @@
-what are some ways you want to implement this?
+current bugs - 
+- theres a bug when a values other then letters are included will till be stored in the array in places that are unexpected
+- bug where input values do not clear once inputted
+- bug where cards end at 29 instead of 30
 
-put all the functionality in one function adding a flex
-container on the cardContent and 
+fixed bugs - 
+- bug where you dropdown would not close unless you clicked add book 
+
+current working on  -
+- trying to find a way to add object content to the card content variable and display it 
+    - idea ->
+        - i think maybe creating a separate function
+        - display the values in javascript 
+        - style it in css if any issues try in javascript
+        - calling on the function generate the content
+
+
+- future functionality
+    - add the delete button
+    - add if we completed the book or not (read, not read)
+    - if read turn the book green or some other color
+    - we would need to update the card number there a chance that the card will just skip the number that was deleted in ascending order.
