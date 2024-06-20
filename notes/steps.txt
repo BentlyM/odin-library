@@ -1,4 +1,4 @@
-what would a engineer do?
-what would a computer scientist do?
-what are you trying to solve?
-create a new branch
+what are some ways you want to implement this?
+
+put all the functionality in one function adding a flex
+container on the cardContent and 

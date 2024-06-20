@@ -1,7 +1,7 @@
 const container = document.querySelector('.container');
 const createBook = document.querySelector('#add-book');
 const myLibrary = [];
-let count = 0;
+let count = 1;
 
 const viewDrop = () => {
     const dropdown = document.querySelector('.dropdown-content');
@@ -30,8 +30,23 @@ createBook.addEventListener('click', ()=>{
 })
 
 function renderCard(renderBook){
+    if(container.children.length >= 30 || 30 <= myLibrary.length) throw `MAX_LENGTH REACHED`;
+
     const card = document.createElement('div');
     card.className = 'card';
 
+    const NumCard = document.createElement('div')
+    NumCard.innerHTML = count++;
+    NumCard.className = 'card-number';
+
+    const cardContent = document.createElement('div');
+    cardContent.className = 'card-content';
+
+    const editCard = document.createElement('div');
+    editCard.className = 'mutate-card';
+
+    card.appendChild(NumCard);
+    card.appendChild(cardContent);
+    card.appendChild(editCard);
     container.appendChild(card);
 }
