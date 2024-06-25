@@ -23,7 +23,7 @@ createBook.addEventListener('click', (event)=>{
     const pages = document.getElementById('pages').value;
 
     if(title === '' || author === '' || pages === '') throw `the field is empty`;
-    const newBook = new Book(title, author, pages);
+    const newBook = new Book(title, author, pages); // <- here im passing it
     myLibrary.push(newBook);
     renderCard(newBook);
 
@@ -39,7 +39,7 @@ createBook.addEventListener('click', (event)=>{
 function renderCard(renderBook){
     if(container.children.length >= 30 || 30 <= myLibrary.length) throw `MAX_LENGTH REACHED`;
 
-    const card = document.createElement('div');
+    const card = document.createElement('div'); 
     card.className = 'card';
 
     const NumCard = document.createElement('div')
