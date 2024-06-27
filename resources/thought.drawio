@@ -22,20 +22,32 @@
                 <mxCell id="3" value="library IIFE" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="232.5" y="150" width="105" height="35" as="geometry"/>
                 </mxCell>
+                <mxCell id="31" value="available" style="edgeStyle=none;html=1;exitX=0.625;exitY=1;exitDx=0;exitDy=0;entryX=0.163;entryY=-0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="18" target="28">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="18" value="myLib array" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="1">
                     <mxGeometry x="150" y="210" width="80" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="20" value="lowkey to many variables" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
                     <mxGeometry x="20" y="120" width="160" height="30" as="geometry"/>
                 </mxCell>
+                <mxCell id="29" value="available" style="edgeStyle=none;html=1;" edge="1" parent="1" source="21" target="28">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="21" value="container" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
                     <mxGeometry x="247.5" y="210" width="75" height="47.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="available" style="edgeStyle=none;html=1;exitX=0.375;exitY=1;exitDx=0;exitDy=0;entryX=0.868;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="23" target="28">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="23" value="count" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
                     <mxGeometry x="337.5" y="210" width="80" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="24" value="this is all there should be" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
                     <mxGeometry x="380" y="170" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="library" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="237.5" y="290" width="95" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
